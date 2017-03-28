@@ -1,0 +1,17 @@
+doctype
+html
+    head
+        meta(charset='UTF-8')
+        title lds.medialand.tw
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        meta(property="og:title" content="lds.medialand.tw")
+        meta(property="og:description" content="lds.medialand.tw")
+        meta(name="google-signin-client_id" content="554917229066-bst96iq8q5n10l89tp6gf8chslqo359m.apps.googleusercontent.com")
+        script.
+            var redirect_url="#{redirect_url}";
+    body
+        #app
+            .g-signin2(data-onsuccess="onSignIn")
+        script(src='//cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.min.js')
+        script(src="https://apis.google.com/js/platform.js?onload=google_api_onload" async)
+        script(src="/asset/js/login.js")

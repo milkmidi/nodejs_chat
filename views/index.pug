@@ -1,0 +1,40 @@
+doctype
+html
+    head
+        meta(charset='UTF-8')
+        title lds.medialand.tw
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        meta(property="og:title" content="lds.medialand.tw")
+        meta(property="og:description" content="lds.medialand.tw")
+
+        //- link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css")
+        //- meta(property="og:image" content="img/1200x630.png")
+        //- meta(name="google-signin-client_id" content="554917229066-bst96iq8q5n10l89tp6gf8chslqo359m.apps.googleusercontent.com")
+        script.
+            var userName="#{name}";
+            var userEmail="#{email}";
+            var userObjectId="#{objectId}";
+
+    body
+        //- p= token
+        //- .g-signin2(data-onsuccess="onSignIn")
+        #app
+        //- link(rel="stylesheet" href="/asset/css/vendor.css")
+        //- link(rel="stylesheet" href="/asset/css/flat-admin.css")
+        //- script(src="/asset/js/vendor.js")
+        script(src='//cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.min.js')
+        script(src='//cdnjs.cloudflare.com/ajax/libs/vue-router/2.1.1/vue-router.min.js')
+        script(src='//cdnjs.cloudflare.com/ajax/libs/vuex/2.0.0/vuex.min.js')
+        script(src='//cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.min.js')
+        link(rel="stylesheet" href="//www.atlasestateagents.co.uk/css/tether.min.css")
+        link(rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous")
+        script(src="//www.atlasestateagents.co.uk/javascript/tether.min.js")
+        script(src="//code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous")
+        script(src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous")
+        //- script(src='//cdnjs.cloudflare.com/ajax/libs/rxjs/4.1.0/rx.all.min.js')
+        //- script(src="//unpkg.com/flatpickr")
+        //- script(src="//npmcdn.com/flatpickr/dist/l10n/zh.js")
+        //- link(rel="stylesheet" href="//unpkg.com/flatpickr/dist/flatpickr.min.css")
+        script(src="/socket.io/socket.io.js")
+        script(src="/asset/js/app.js")
+        //- script(src="https://apis.google.com/js/platform.js?onload=google_api_onload" async)
